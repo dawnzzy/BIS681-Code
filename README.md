@@ -39,13 +39,6 @@ GenAI_SingleCell/
 │   └── 06_conditional_flow  # Conditional flow matching (all three variants)
 ├── scripts/                 # Standalone utility scripts
 │   └── generate_leiden_labels.py    # Reproduce Leiden cluster labels
-├── Presentation/            # Final presentation deck and report assets
-├── data/                    # Raw .h5ad files (auto-downloaded, gitignored)
-├── artifacts/               # Generated outputs (gitignored)
-│   ├── data/                # Preprocessed arrays, scalers, splits
-│   ├── models/              # Trained model checkpoints (.pt, .joblib)
-│   └── figures/             # Saved plots
-├── teammates/               # Reference notebooks from teammates (gitignored)
 ├── requirements.txt         # Pip dependencies
 └── environment.yml          # Full conda environment export
 ```
